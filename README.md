@@ -46,18 +46,18 @@ __________
 <!-- -breakpoint = media query - @min-width(768px): -->
   <!-- -Text should be to the left side of the form field. -->
   <!-- -focus states -->
-  -run through an HTML and CSS validator.
-    -Don’t worry about any warnings, we just need you to check any errors that might be there.
+  <!-- -run through an HTML and CSS validator.
+    -Don’t worry about any warnings, we just need you to check any errors that might be there. -->
     <!-- -If CSS validator flags use of calc, vendor prefixes or pseudo-elements/pseudo-classes these errors should be ignored. -->
-    -If HTML validator flags use of pipe (‘|’) in Google font links/URLs this error can also be ignored.
+    <!-- -If HTML validator flags use of pipe (‘|’) in Google font links/URLs this error can also be ignored. -->
 
 ----- !! HEADS UP !! -----
-
-Check your project for cross browser compatibility. Leave a comment to the project reviewer about which browser(s) the project was checked.
+<!--
+Check your project for cross browser compatibility. Leave a comment to the project reviewer about which browser(s) the project was checked. -->
   <!-- -Google Chrome
   -Mozilla Firefox -->
-  -Internet Explorer/Edge
-  -Safari
+  <!-- -Internet Explorer/Edge
+  -Safari -->
 
 
 ----- !! HEADS UP !! -----
@@ -66,8 +66,8 @@ Check your project for cross browser compatibility. Leave a comment to the proje
 
 <!-- -Additional placeholder text for other text fields. -->
   <!-- -Use the required attribute to add HTML5 validation to make sure that required fields are filled out and input is formatted correctly. -->
-  -Add at least the following additional styling enhancements to the form:
-        -Change the background color for at least ONE of the main sections of the site.
+  <!-- -Add at least the following additional styling enhancements to the form:
+        -Change the background color for at least ONE of the main sections of the site. -->
         <!-- -Uses CSS transitions for focus states. -->
   <!-- -Use CSS transition effects for highlighting the look of the form fields.
         For example, make a background color fade into view when the user clicks on a text field, and fade out when the user clicks or tabs out of the field. -->

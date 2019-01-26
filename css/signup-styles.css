@@ -5,6 +5,12 @@
   box-sizing: border-box;
 }
 
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 /* =======================
 Base Styles
 ======================== */
@@ -65,13 +71,22 @@ footer  {
 }
 
 .news {
-  margin-left: ;
-  margin-right: ;
+  margin: auto;
 }
 
 /* =============================
 Form Styles
 ============================= */
+
+form input,
+select {
+  width: 70%;
+}
+
+#zip {
+  display: inline-block;
+  max-width: 25%;
+}
 
 input[type] {
     background: #dfefe2;
@@ -114,11 +129,22 @@ input[type="submit"]  {
   background: #8baca0;
   color: #fff;
   border: none;
-  border-radius: 3px 8px 3px 8px;
+  border-radius: 3.5px 8px 3.5px 8px;
+  box-shadow: 7px 3px 5px #dcc48b;
 }
 
 .comments {
   margin-top: 20px;
+  padding-top: 10px;
+}
+
+textarea  {
+  width: 200px;
+  height: auto;
+}
+
+.xtra-info  {
+  float: left;
 }
 
 /* ============================
@@ -127,19 +153,25 @@ Media Queries
 
 @media (min-width: 768px) {
 
+  /* ===============================
+  Form Flex
+  =============================== */
+
   .flex {
     display: flex;
-    flex-wrap: wrap;align-items: baseline;
+    flex-wrap: wrap;
+    align-items: baseline;
     margin-bottom: 1.5em;
   }
 
-/* ===============================
-Form Flex
-=============================== */
-
 .flex label  {
-  min-width: 33%;
+  min-width: 30%;
   margin-left: 0;
+}
+
+input[type="checkbox"] label,
+input[type="radio"] label {
+  padding-left: 11px;
 }
 
 }
